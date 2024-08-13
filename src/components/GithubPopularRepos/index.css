@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.git-hub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.git-hub-heading {
+  color: #0f172a;
+  font-family: Lobster;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.git-hub-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 30px;
+}
+.project-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.failure-img {
+  width: 300px;
+}
+@media screen and (max-width: 767px) {
+  .project-list-container {
+    width: 60vw;
+  }
+}

@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.repository-item-container {
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 20vw;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-img {
+  width: 100px;
+}
+.project-title {
+  color: #e73959;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+.dis-image {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.project-discrition-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  align-items: center;
+}
+.project-discrition {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  font-family: Roboto;
+}
+@media screen and (max-width: 767px) {
+  .repository-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
